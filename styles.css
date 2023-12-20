@@ -1,0 +1,63 @@
+.container{
+    background-color: grey;
+    width: 62.5%;
+    display: grid;
+    grid-template-columns: repeat(30, 30px);
+    grid-template-rows: repeat(5, 60px);
+    grid-gap: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.tecla{
+    border: solid 2px;
+    background-color: white;
+    border-radius: 5px;
+    grid-column: span 2;
+    text-align: center;
+    padding: 18px;
+}
+
+.delete{
+    grid-column: span 4;
+}
+
+.tab{
+    grid-column: span 3;
+}
+
+.barraInvertida{
+    grid-column: span 3;
+}
+
+.capslock{
+    grid-column: span 4;
+}
+
+.return{
+    grid-column: span 4;
+}
+
+.leftshift{
+    grid-column: span 5;
+}
+
+.rightshift{
+    grid-column: span 5;
+}
+
+.leftctrl{
+    grid-column: span 3;
+}
+
+.command{
+    grid-column: span 3;
+}
+
+.space{
+    grid-column: span 13;
+}
+
+.tecla:hover{
+    background-color: gray;
+}
